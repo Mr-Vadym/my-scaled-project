@@ -1,0 +1,1 @@
+export async function fetchData() { /* код API-запиту */ }
