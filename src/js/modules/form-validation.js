@@ -1,0 +1,1 @@
+export default function validateForm() { /* код валідації форми */ }

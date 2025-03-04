@@ -1,0 +1,1 @@
+export default class Modal { /* код модального вікна */ }
