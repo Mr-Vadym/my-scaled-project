@@ -1,1 +1,10 @@
-body { font-family: "Roboto", sans-serif; }
+@use "../abstracts" as *;
+
+h1, h2, h3 {
+  line-height: 1.2;
+  margin: 0 0 .5em;
+}
+
+p {
+  margin: 0 0 1em;
+}

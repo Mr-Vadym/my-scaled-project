@@ -1,0 +1,25 @@
+/* Кореневий вхід SCSS: підключає шари у фіксованому порядку */
+
+/* 1. Абстракції (змінні, функції, міксини) */
+@use "abstracts" as *;
+
+/* 2. Базові стилі */
+@use "base/fonts";
+@use "base/reset";
+@use "base/base";
+@use "base/typography";
+
+/* 3. Сітка/лейаут */
+@use "layout/grid";
+@use "layout/header";
+@use "layout/footer";
+
+/* 4. Компоненти */
+@use "components/button";
+@use "components/card";
+@use "components/carousel";
+
+/* 5. Сторінки */
+@use "pages/home";
+@use "pages/about";
+@use "pages/contact";

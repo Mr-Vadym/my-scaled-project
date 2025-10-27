@@ -1,0 +1,4 @@
+/* Експортуємо все разом — зручно @use "abstracts" as *; */
+@forward "variables";
+@forward "functions";
+@forward "mixins";
